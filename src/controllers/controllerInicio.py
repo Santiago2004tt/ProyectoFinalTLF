@@ -11,5 +11,5 @@ class Controlador:
         # Puedes agregar lógica adicional aquí si lo necesitas.
         self.vista.actualizar_resultado(texto)
 
-    def mostrar_texto(self):
-        self.vista.agregar_resultado(a+"hola")
+    def mostrar_texto(self,texto):
+        self.vista.agregar_resultado(texto+": hola")
